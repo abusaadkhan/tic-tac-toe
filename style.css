@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: wheat;
+}
+.container{
+    width: 40%;
+    height: 70%;
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 32.9%;
+    height: 32.9%;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
